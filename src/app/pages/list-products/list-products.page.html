@@ -7,7 +7,7 @@
 
   <ion-grid>
     <ion-row>
-      
+
       <!-- Producto de productos -->
       <ion-col size="6" *ngFor="let product of products">
         <ion-card class="list ion-text-center" (click)="goToProduct(product)">
@@ -17,8 +17,9 @@
             <ion-card-title>{{product.name | translate}}</ion-card-title>
           </ion-card-header>
         </ion-card>
-
       </ion-col>
+
+      
     </ion-row>
   </ion-grid>
 
