@@ -1,0 +1,2 @@
+docker start mongo
+npm run start:dev

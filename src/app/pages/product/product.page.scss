@@ -1,0 +1,31 @@
+.block-title {
+    font-size: 22px;
+}
+
+ion-card.product {
+    height: 95%;
+}
+
+ion-card.product ion-item {
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+}
+
+// Estilo general para todos los ion-card con clase 'list'
+.list {
+  border: 2px solid #ff2937; // Azul
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border-color: #fe8725; // Azul más oscuro
+  }
+}
+
+// Puedes usar esto para distinguir los extras (opcional)
+.product {
+  border-color: #28a745; // Verde
+}
